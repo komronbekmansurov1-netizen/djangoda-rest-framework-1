@@ -10,6 +10,6 @@ urlpatterns = [
     path('salom3/<int:pk>', Salom3ListView.as_view()),
     path('salom4/', Salom4ListView.as_view()),
     path('salom4/<int:pk>', Salom4ListView.as_view()),
-    path('salom5/', Salom1ListView.as_view()),
+    path('salom5/', Salom5ListView.as_view()),
     path('salom5/<int:pk>', Salom5ListView.as_view()),
 ]
